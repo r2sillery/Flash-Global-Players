@@ -1,0 +1,53 @@
+ ------------------ Flash Professional CC & CC2014 Version Install ------------------
+ 
+How to Add Flash Player 9.0 - 10.2 to your computer. Close any Flash program windows currently open.
+
+1. Go to Interactive Marketing Server > Resources > Flash > Flash Player directory.
+
+2. Copy Flash Player folder to  your desktop. You should have a number of different Flash Player folders inside it.
+
+3. Go to your Applications folder (MAC) and find the Flash Application Version you need to edit.
+
+4. Right Click on the Application file and select "Show Package Contents".
+
+5. Open the "Contents" folder and locate the "Common > Configuration > ActionScript 3.0" folder.
+
+6. You should now see all the different Flash Player Output Version folders. Copy one of the folders .i.e "FP11.2" and make a copy in that same directory.
+
+7. Rename it "FP10.1", if you open the folder you should see a file named "playerglobal.swc".
+
+8. Replace this file (playerglobal.swc) with the same one from the Flash Player version folder you copied onto the desktop from earlier.
+
+9. Now in the same "Configuration" folder, locate the "Players" folder and open that. You will see a number of different .xml files each with a Flash Player version i.e. "FlashPlayer11.2.xml"
+
+10. Copy the FlashPlayer10_1.xml from the desktop folder and paste it into this folder.
+
+11. Repeat process for any other needed Flash Player versions.
+
+
+
+ ------------------ Flash Professional CS6 Version Install ------------------
+ 
+ How to Add Flash Player 9.0 - 10.2 to your computer. Close any Flash program windows currently open.
+
+1. Go to Interactive Marketing Server > Resources > Flash > Flash Player directory.
+
+2. Copy Flash Player folder to  your desktop. You should have a number of different Flash Player folders inside it.
+
+3. Go to your Applications folder (MAC) and find the Flash Application Version you need to edit.
+
+4. Click on the Application file and select "Common".
+
+5. Open the "Common" folder and locate the "ActionScript 3.0" folder.
+
+6. You should now see all the different Flash Player Output Version folders. Copy one of the folders .i.e "FP11.2" and make a copy in that same directory.
+
+7. Rename it "FP10.1", if you open the folder you should see a file named "playerglobal.swc".
+
+8. Replace this file (playerglobal.swc) with the same one from the Flash Player version folder you copied onto the desktop from earlier.
+
+9. Now in the same "Configuration" folder, locate the "Players" folder and open that. You will see a number of different .xml files each with a Flash Player version i.e. "FlashPlayer11.2.xml"
+
+10. Copy the FlashPlayer10_1.xml from the desktop folder and paste it into this folder.
+
+11. Repeat process for any other needed Flash Player versions.
